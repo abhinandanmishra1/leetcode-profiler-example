@@ -9,7 +9,7 @@ import React, { useRef, useState } from "react";
 
 export const Example = () => {
   const ref = useRef(null);
-  const [username, setUsername] = useState("abhinandan_mishra_1");
+  const [username, setUsername] = useState("abhinandanmishra1");
 
   const handleClick = () => {
     setUsername(ref?.current?.value);
